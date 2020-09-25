@@ -74,7 +74,7 @@ section {
 	transform: rotateY(-30deg);
 	transform: translate3d(50deg);
     transform: rotate3d(1, 1.5, 2, -10deg);
-    opacity: 75%;
+    opacity: 55%;
 }
 .hairStyling div {
 	position: absolute;
@@ -127,8 +127,8 @@ section {
 	display: block;
 	transform: rotateY(-30deg);
 	transform: translate3d(50deg);
-    transform: rotate3d(1, 1.5, 2, -15deg);
-    opacity: 75%;
+    transform: rotate3d(1, 1.5, 2, -10deg);
+    opacity: 55%;
 }
 .hairStyling2 div:nth-child(1) {
 	left: 10%;
@@ -177,8 +177,8 @@ section {
 	display: block;
 	transform: rotateY(-30deg);
 	transform: translate3d(50deg);
-    transform: rotate3d(1, 1.5, 2, 10deg);
-    opacity: 75%;
+    transform: rotate3d(1, 1.5, 2, -10deg);
+    opacity: 55%;
 }
 .hairStyling3 div:nth-child(1) {
 	left: 15%;
@@ -219,23 +219,35 @@ section {
 	0% {
 		opacity: 1;
 		top: -10%;
-		transform: translateX (5px) rotateX(0deg);
+        transform: translateX (5px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        transform: translateZ (5px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        transform: translateY (5px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 	}
 	15% {
 		opacity: 0.7;
-		transform: translateX (-100px) rotateX(30deg);
+        transform: translateX (-100px) rotateX(30deg) rotateY(30deg) rotateZ(30deg);
+        transform: translateZ (-100px) rotateX(30deg) rotateY(30deg) rotateZ(30deg);
+        transform: translateY (-100px) rotateX(30deg) rotateY(30deg) rotateZ(30deg);
 	}
 	30% {
-		transform: translateX (-100px) rotateX(70deg);
+        transform: translateX (-100px) rotateX(70deg) rotateY(70deg) rotateZ(70deg);
+        transform: translateZ (-100px) rotateX(70deg) rotateY(70deg) rotateZ(70deg);
+        transform: translateY (-100px) rotateX(70deg) rotateY(30deg) rotateZ(70deg);
 	}
 	60% {
-		transform: translateX (-100px) rotateX(45deg);
+        transform: translateX (-100px) rotateX(90deg) rotateY(90deg) rotateZ(90deg);
+        transform: translateZ (-100px) rotateX(90deg) rotateY(90deg) rotateZ(90deg);
+        transform: translateY (-100px) rotateX(90deg) rotateY(90deg) rotateZ(90deg);
 	}
 	75% {
-		transform: translateX (-100px) rotateX(60deg);
+        transform: translateX (-100px) rotateX(160deg) rotateY(160deg) rotateZ(160deg);
+        transform: translateZ (-100px) rotateX(160deg) rotateY(160deg) rotateZ(160deg);
+        transform: translateY (-100px) rotateX(160deg) rotateY(160deg) rotateZ(160deg);
 	}
 	100% {
 		top: 380%;
-		transform: translateX (-100px) rotateX(200deg);
+        transform: translateX (-100px) rotateX(200deg) rotateY(200deg) rotateZ(200deg);
+        transform: translateZ (-100px) rotateX(200deg) rotateY(200deg) rotateZ(200deg);
+        transform: translateY (-100px) rotateX(200deg) rotateY(200deg) rotateZ(200deg);
 	}
 }
