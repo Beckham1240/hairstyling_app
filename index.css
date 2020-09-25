@@ -2,5 +2,240 @@
 .row{
     padding-left: 3%;
     padding-right: 3%;
-    box-shadow: 5px 5px 10px purple;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #694364;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #694364,#B58BAB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #694364, #B58BAB ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(6, 7, 0);
+  }
+  body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+body{
+    position: absolute;
+    z-index: 99;
+}
+div#card1{
+	border: outset 5px black;
+	border-radius: 15px;
+	-webkit-box-shadow: black 15px 5px 25px;
+	box-shadow: black 15px 5px 25px;
+	margin-left: 15px;
+	margin-right: 45px;
+    width: 50%;
+    height: 50%;
+	float: left;
+	text-align: center;
+}
+*[id*="card"] {
+	-webkit-transition: -webkit-transform ease 0.5s;
+	transition: -webkit-transform ease 0.5s;
+	transition: transform ease 0.5s;
+	transition: transform ease 0.5s, -webkit-transform ease 0.5s;
+}
+*[id*="card"]:hover {
+	-webkit-transform: scaleX(1.05) scaleY(1.05);
+	transform: scaleX(1.05) scaleY(1.05);
+}
+@media only screen and (max-width: 1800px) {
+	div#card1{
+		width: 75%;
+		-webkit-transform: translateX(10%);
+		transform: translateX(10%);
+	}
+	div#card1 {
+		margin-bottom: 25px;
+	}
+	*[class*="nav"] {
+		-webkit-transform: scaleY(1.035);
+		transform: scaleY(1.035);
+	}
+}
+section {
+	height: 100%;
+	z-index: 100;
+}
+.hairStyling {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	transform: rotateY(-30deg);
+	transform: translate3d(50deg);
+    transform: rotate3d(1, 1.5, 2, -10deg);
+    opacity: 75%;
+}
+.hairStyling div {
+	position: absolute;
+	display: block;
+}
+.hairStyling div:nth-child(1) {
+	left: 20%;
+	animation: falling 9s linear infinite;
+	animation-delay: -1s;
+}
+.hairStyling div:nth-child(2) {
+	left: 70%;
+	animation: falling 17s linear infinite;
+	animation-delay: -3s;
+}
+.hairStyling div:nth-child(3) {
+	left: 10%;
+	animation: falling 23s linear infinite;
+	animation-delay: -5s;
+}
+.hairStyling div:nth-child(4) {
+	left: 50%;
+	animation: falling 18s linear infinite;
+	animation-delay: -6s;
+}
+.hairStyling div:nth-child(5) {
+	left: 85%;
+	animation: falling 15s linear infinite;
+	animation-delay: -8s;
+}
+.hairStyling div:nth-child(6) {
+	left: 15%;
+	animation: falling 12s linear infinite;
+	animation-delay: -10s;
+}
+.hairStyling div:nth-child(7) {
+	left: 90%;
+	animation: falling 13s linear infinite;
+	animation-delay: -4s;
+}
+.hairStyling2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.hairStyling2 div {
+	position: absolute;
+	display: block;
+	transform: rotateY(-30deg);
+	transform: translate3d(50deg);
+    transform: rotate3d(1, 1.5, 2, -15deg);
+    opacity: 75%;
+}
+.hairStyling2 div:nth-child(1) {
+	left: 10%;
+	animation: falling 17s linear infinite;
+	animation-delay: -3s;
+}
+.hairStyling2 div:nth-child(2) {
+	left: 65%;
+	animation: falling 15s linear infinite;
+	animation-delay: -1s;
+}
+.hairStyling2 div:nth-child(3) {
+	left: 17%;
+	animation: falling 26s linear infinite;
+	animation-delay: -9s;
+}
+.hairStyling2 div:nth-child(4) {
+	left: 3%;
+	animation: falling 19s linear infinite;
+	animation-delay: -3s;
+}
+.hairStyling2 div:nth-child(5) {
+	left: 75%;
+	animation: falling 20s linear infinite;
+	animation-delay: -7s;
+}
+.hairStyling2 div:nth-child(6) {
+	left: 10%;
+	animation: falling 17s linear infinite;
+	animation-delay: -6s;
+}
+.hairStyling2 div:nth-child(7) {
+	left: 80%;
+	animation: falling 11s linear infinite;
+	animation-delay: -10s;
+}
+.hairStyling3 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.hairStyling3 div {
+	position: absolute;
+	display: block;
+	transform: rotateY(-30deg);
+	transform: translate3d(50deg);
+    transform: rotate3d(1, 1.5, 2, 10deg);
+    opacity: 75%;
+}
+.hairStyling3 div:nth-child(1) {
+	left: 15%;
+	animation: falling 15s linear infinite;
+	animation-delay: -9s;
+}
+.hairStyling3 div:nth-child(2) {
+	left: 25%;
+	animation: falling 14s linear infinite;
+	animation-delay: -4s;
+}
+.hairStyling3 div:nth-child(3) {
+	left: 30%;
+	animation: falling 20s linear infinite;
+	animation-delay: -5s;
+}
+.hairStyling3 div:nth-child(4) {
+	left: 85%;
+	animation: falling 12s linear infinite;
+	animation-delay: -8s;
+}
+.hairStyling3 div:nth-child(5) {
+	left: 78%;
+	animation: falling 11s linear infinite;
+	animation-delay: -7s;
+}
+.hairStyling3 div:nth-child(6) {
+	left: 30%;
+	animation: falling 16s linear infinite;
+	animation-delay: -8s;
+}
+.hairStyling3 div:nth-child(7) {
+	left: 92%;
+	animation: falling 15s linear infinite;
+	animation-delay: -19s;
+}
+@keyframes falling {
+	0% {
+		opacity: 1;
+		top: -10%;
+		transform: translateX (5px) rotateX(0deg);
+	}
+	15% {
+		opacity: 0.7;
+		transform: translateX (-100px) rotateX(30deg);
+	}
+	30% {
+		transform: translateX (-100px) rotateX(70deg);
+	}
+	60% {
+		transform: translateX (-100px) rotateX(45deg);
+	}
+	75% {
+		transform: translateX (-100px) rotateX(60deg);
+	}
+	100% {
+		top: 380%;
+		transform: translateX (-100px) rotateX(200deg);
+	}
 }
