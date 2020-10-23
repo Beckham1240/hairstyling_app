@@ -25,6 +25,10 @@ a > p{
 	color: white;
 	height: 15px;
 }
+div.sb{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 body{
     position: absolute;
     z-index: 99;
