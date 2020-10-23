@@ -1,7 +1,23 @@
-body{
-    width: 100%;
-}
 header{
     height: 50%;
-
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    padding-left: 2%;
+}
+body{
+    width: 100%;
+    background-image: url("wmhairpic.png");
+    background-size: 100%;
+}
+button{
+    margin-top: 35%;
+}
+img{
+    float: right;
+}
+h1.display-4{
+    color: purple;
+}
+p{
+    color: purple;
 }
