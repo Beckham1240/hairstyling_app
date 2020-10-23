@@ -10,18 +10,19 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="index.js"></script>
     <title>WM Haristyling</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="d-flex justify-content-center">
+    <div class="main d-flex justify-content-center">
         <form class="needs-validation" novalidate>
             <div class="form-row">
                 <div class="card" style="width: 48rem;">
-                    <div class="card-header">
+                    <div class="card-header p-2">
                         HairStylist Form
                     </div>
-                    <ul class="list-group list-group-flush">
+                    <ul class="list-group list-group-flush p-2">
                         <div class="h-100 d-inline-block" style="width: 120px; height: 100px;">
                             <label for="validationCustom01">Hairstylist Name</label>
                             <input style="width: 400px; height: 35px;" type="text" class="form-control"
@@ -31,9 +32,9 @@
                             </div>
                     </ul>
 
-                    <label for="validationCustom02">Client Name</label>
+                    <label for="validationCustom02" class="p-2">Client Name</label>
 
-                    <ul class="list-group list-group-flush">
+                    <ul class="list-group list-group-flush p-2">
                         <div class="h-100 d-inline-block" style="width: 120px; height: 100px;">
                             <input style="width: 400px; height: 35px;" type="text" class="form-control"
                                 id="validationCustom02" required>
@@ -41,29 +42,44 @@
                                 Looks good!
                             </div>
                     </ul>
-
-                    <label for="validationCustom03">Date</label>
-
-                    <ul class="list-group list-group-flush">
-                        <div class="h-100 d-inline-block" style="width: 120px; height: 100px;">
-                            <input style="width: 400px; height: 35px;" type="text" class="form-control"
-                                id="validationCustom03" placeholder="ex: 09/20/20" required>
-                            <div class="invalid-feedback">
-                                Please provide a valid date.
+                    <label for="validationCustom03" style="height: 25px;">
+                        <div class="d-flex bd-highlight">
+                            <div class="p-2 flex-fill bd-highlight">
+                                <p>Date</p>
                             </div>
+                            <div class="p-2 flex-fill bd-highlight">
+                                <p>Address</p>
+                            </div>
+
+                        </div>
+
+                    </label>
+                    <ul class="list-group list-group-flush" style="height: 50px;">
+                        <div class="d-flex bd-highlight">
+                            <div class="p-2 flex-fill bd-highlight">
+                                <p>
+
+                                    <input style="width: 300px; height: 35px;" type="text" class="form-control"
+                                        id="validationCustom03" placeholder="ex: 09/20/20" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid date.
+                                    </div>
+
+                                </p>
+                            </div>
+                            <div class="p-2 flex-fill bd-highlight">
+                                <p>
+                                    <input style="width: 400px; height: 35px;" type="text" class="form-control"
+                                        id="validationCustom03" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid address.
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
                     </ul>
 
 
-                    <label for="validationCustom03">Address</label>
-
-                    <ul class="list-group list-group-flush">
-                        <div class="h-100 d-inline-block" style="width: 120px; height: 100px;">
-                            <input style="width: 400px; height: 35px;" type="text" class="form-control"
-                                id="validationCustom03" required>
-                            <div class="invalid-feedback">
-                                Please provide a valid address.
-                            </div>
-                    </ul>
 
 
 
@@ -190,9 +206,9 @@
 
 
 
-                    <label for="validationCustom05">Service Request</label>
+                    <label for="validationCustom05" class="p-2">Service Request</label>
 
-                    <ul class="list-group list-group-flush">
+                    <ul class="list-group list-group-flush p-2">
                         <div class="h-100 d-inline-block" style="width: 120px; height: 100px;">
                             <input style="width: 400px; height: 35px;" type="text" class="form-control"
                                 id="validationCustom05">
@@ -200,7 +216,7 @@
                 </div>
             </div>
 
-            <button class="btn btn-primary" type="submit"><a href="page2.html">Next Page</a></button>
+            <button class="btn btn-primary" type="submit"><a href="page2.html"><p>Next Page</p></a></button>
         </form>
     </div>
 
