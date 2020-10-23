@@ -21,11 +21,22 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+a > p{
+	color: white;
+	height: 15px;
+}
+div.sb{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 body{
     position: absolute;
     z-index: 99;
 }
-div#card1{
+div.main{
+	padding: 40px;
+}
+div#card{
 	border: outset 5px black;
 	border-radius: 15px;
 	-webkit-box-shadow: black 15px 5px 25px;
